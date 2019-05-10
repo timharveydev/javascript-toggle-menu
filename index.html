@@ -13,7 +13,7 @@
 <body>
   <!-- main navigation -->
   <nav class="main-nav">
-    <div class="toggle-menu-button"></div>
+    <div class="toggle-menu-button" onclick="toggleSidebar()"></div>
     <ul>
       <li><a href="#">Link1</a></li>
       <li><a href="#">Link2</a></li>
@@ -23,16 +23,14 @@
   </nav>
 
   <!-- sidebar -->
-  <aside>
-    <nav class="toggle-nav">
-      <ul>
-        <li id="toggle-nav-title">Javascript Sidebar</li>
-        <li><a href="#">Sidebar1</a></li>
-        <li><a href="#">Sidebar2</a></li>
-        <li><a href="#">Sidebar3</a></li>
-        <li><a href="#">Sidebar4</a></li>
-      </ul>
-    </nav>
+  <aside class="toggle-nav">
+    <ul>
+      <li id="toggle-nav-title">Javascript Sidebar</li>
+      <li><a href="#">Sidebar1</a></li>
+      <li><a href="#">Sidebar2</a></li>
+      <li><a href="#">Sidebar3</a></li>
+      <li><a href="#">Sidebar4</a></li>
+    </ul>
   </aside>
 </body>
 <script src="js/main.js"></script>
